@@ -482,7 +482,7 @@ Use two terminals while testing:
 python run.py
 ```
 
-2. Request terminal:
+1. Request terminal:
 
 ```powershell
 Invoke-RestMethod -Uri http://127.0.0.1:5000/health -Method GET
