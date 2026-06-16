@@ -34,7 +34,7 @@ def register():
     db.session.add(user)
 
     # Commit saves the user permanently to the database.
-    db.session.commit()
+    db.session.commit() 
 
     return {
         "message": "Account created successfully.",
